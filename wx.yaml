@@ -7,6 +7,7 @@ log-level: info
 external-controller: 0.0.0.0:9090
 secret: ''
 
+
 proxies:
   - name: Phoenix1
     type: vmess
