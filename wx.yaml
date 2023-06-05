@@ -19,7 +19,7 @@ proxies:
     ws-path: /
     tls: false
     
-  - name: Phoneix2
+  - name: Phoenix2
     type: vmess
     server: 20.168.40.44
     port: 32864
@@ -41,7 +41,7 @@ proxies:
     ws-path: /
     tls: false
 
-    - name: Phoneix4
+  - name: Phoneix4
     type: vmess
     server: 20.168.40.44
     port: 59009
@@ -57,8 +57,8 @@ proxy-groups:
   - name: Proxy
     type: select
     proxies:
-      - Phoneix1
-      - Phoneix2
+      - Phoenix1
+      - Phoenix2
       - Phoneix3
       - Phoneix4
 
